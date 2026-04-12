@@ -1,0 +1,25 @@
+.header {
+    display: flex;
+    background-color: rgb(32, 32, 32);
+    padding: 15px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.header h1 {
+    color: white;
+}
+
+.tabs {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    color: gainsboro;
+    transition: 200ms;
+    cursor: pointer;
+}
+
+.tabs li:hover {
+    color: white;
+    transform: scale(1.5);
+}

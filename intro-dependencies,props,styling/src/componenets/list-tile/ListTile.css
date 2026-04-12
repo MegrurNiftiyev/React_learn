@@ -1,0 +1,22 @@
+.listTile {
+    padding: 15px;
+    padding-left: 20px;
+    background-color: white;
+    margin: 10px;
+    transition: 300ms;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 25px;
+}
+
+.listTile:hover {
+    box-shadow: 2px 0px 20px rgba(0, 0, 0, 0.1);
+    margin-left: 15px;
+}
+
+.title {
+    padding-bottom: 10px;
+}
+
+.subtitle {
+    color: rgba(0, 0, 0, 0.634);
+}
