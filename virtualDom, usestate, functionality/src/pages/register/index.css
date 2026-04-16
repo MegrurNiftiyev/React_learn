@@ -1,0 +1,33 @@
+.registerBox {
+    margin: 50px auto;
+    width: 30em;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.064);
+    border-radius: 35px;
+    color: var(--primary-green);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.registerBox h2 {
+    text-align: left;
+    width: 70%;
+    margin: 30px auto;
+    font-size: 30px;
+
+}
+
+
+form {
+    flex: 1;
+}
+
+.lineOption{
+    display: flex;
+    width: 70%;
+    text-align: center;
+    justify-content: space-between;
+    margin: 15px auto;
+}

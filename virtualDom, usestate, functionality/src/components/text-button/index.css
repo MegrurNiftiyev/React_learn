@@ -1,0 +1,14 @@
+.textButton {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: var(--primary-green);
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  padding: 0;
+}
+
+.textButton:focus {
+  outline: none;
+}

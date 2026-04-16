@@ -4,9 +4,9 @@ import UserProfile from './componenets/user-profile/UserProfile'
 
 function App() {
   const comments = [
-    { id: 1, name: 'Veli', comment: 'Ders anlatimi cok akiciydi, props konusunu net anladim.' },
-    { id: 2, name: 'Ayse', comment: 'Ornekler sayesinde component mantigi kafama oturdu.' },
-    { id: 3, name: 'Mert', comment: 'Styling kismi ozellikle faydali oldu, devamini bekliyorum.' },
+    { id: 1, name: 'Veli', comment: 'The lesson was very clear and fluent; I understood props well.' },
+    { id: 2, name: 'Ayse', comment: 'The examples helped me fully understand component logic.' },
+    { id: 3, name: 'Mert', comment: 'The styling section was especially helpful; I am looking forward to the rest.' },
    ]
   
 const users=[
