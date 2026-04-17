@@ -7,6 +7,9 @@
     --text-muted: #A7A7A7;
     --accent-lime: #CDDC39;
     --success-color: #2ECC71;
+    --error-color: #E74C3C;
+
+
 }
 
 :root {

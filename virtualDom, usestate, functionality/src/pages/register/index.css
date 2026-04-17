@@ -12,9 +12,8 @@
 }
 
 .registerBox h2 {
-    text-align: left;
-    width: 70%;
-    margin: 30px auto;
+    text-align: center;
+    margin: 30px;
     font-size: 30px;
 
 }
@@ -24,10 +23,15 @@ form {
     flex: 1;
 }
 
-.lineOption{
+.lineOption {
     display: flex;
-    width: 70%;
+
     text-align: center;
     justify-content: space-between;
     margin: 15px auto;
+}
+
+.box {
+    width: 70%;
+    margin: 0 auto;
 }

@@ -1,17 +1,16 @@
-.button {
+.buttonBox{
     display: block;
     text-align: center;
     align-items: center;
     justify-content: center;
 }
 
-.button button {
-
+.buttonBox button {
     background-color: var(--primary-green);
     color: var(--text-main);
     border: none;
     font-size: 17px;
-    width: 70%;
+    width: 100%;
     border-radius: 15px;
     padding: 15px 0px;
 }
