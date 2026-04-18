@@ -10,53 +10,47 @@ import { Options } from '../../components/options/Options'
 import "./index.css"
 import { useNavigate } from 'react-router-dom'
 
+export function Login() {
 
-export function Register() {
-    const langs = [
-        { id: 1, label: "en", value: "English" },
-        { id: 2, label: "az", value: "Azerbaijan" },
-        { id: 3, label: "tr", value: "Turkis" },
-
-    ];
-
+  
     const navigate = useNavigate();
-    const navigateToLogin = () => {
-        navigate(`/login`);
+
+    const navigateToRegister = () => {
+        navigate(`/register`);
     };
-       const navigateToHome = () => {
+    const navigateToHome = () => {
         navigate(`/`);
     };
     return (
-        <div className="registerBox">
-            <div className='box'>
+        <div className="loginBox">
+            <div className="box">
                 <form>
-                    {/* <Options options={langs} /> */}
-                    <h2> Register</h2>
-                    <Input icon={faUser} validation={isValidUserName} label={"User Name"} type="text" placeholder="Enter User Name" />
-                    <SizedBox height={10} />
+                    <h2> Login</h2>
+
 
                     <Input icon={faEnvelope} validation={isValidEmail} label={"Email"} type="email" placeholder="Enter Email Addres" />
                     <SizedBox height={10} />
 
                     <Input icon={faKey} validation={isValidPassword} label={"Password"} type="password" placeholder="Enter Password" />
                     <SizedBox height={5} />
-                    <div className='lineOption'>
-                        <RememberMe />
-                        <TextButton text="forgot password?" onClick={() => { alert('Forgot password clicked') }} />
 
+                    <div className='lineOption'>
+                        <TextButton text="forgot password?" onClick={() => { alert('Forgot password clicked') }} />
                     </div>
+
                     <SizedBox height={10} />
-                    <Button text="Register" type="submit" onClick={ navigateToHome} />
+                    <Button text="Log in" type="submit" onClick={navigateToHome} />
 
                 </form>
                 <SizedBox height={20} />
                 <TextWithButton
-                    text="Or alredy have an account?"
-                    buttonText="log in"
-                    onClick={navigateToLogin}
+                    text="Don't have an account?"
+                    buttonText="register"
+                    onClick={navigateToRegister}
                 />
                 <SizedBox height={20} />
             </div>
         </div>
-    )
+    );
+
 }

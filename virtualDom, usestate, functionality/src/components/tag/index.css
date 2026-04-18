@@ -1,0 +1,12 @@
+.tag {
+    margin:5px 10px 5px 0;
+    color: var(--text-dark-main);
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 8px;
+    background-color: color-mix(in srgb, var(--primary-green), transparent 90%);
+    transition: 200ms;
+}
+.tag:hover{
+    color: var(--primary-green) !important;
+}

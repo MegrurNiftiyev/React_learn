@@ -1,0 +1,37 @@
+.home {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    display: flex;
+    padding: 20px;
+    color: var(--text-dark-main);
+    margin: 0 auto;
+    justify-content: center;
+    gap: 2%;
+}
+
+.main p {
+    font-size: 25px;
+}
+
+.aboutText {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 5%;
+}
+
+.userPhoto {
+    width: 25em;
+    height: 25em;
+    border-radius: 50%;
+    border: solid 4px var(--primary-green);
+}
+
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+}

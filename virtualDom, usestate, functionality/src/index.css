@@ -8,15 +8,18 @@
     --accent-lime: #CDDC39;
     --success-color: #2ECC71;
     --error-color: #E74C3C;
-
+--text-dark-main: #172A45;
 
 }
 
 :root {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
     background: var(--light-bg);
     font-family: Arial, Helvetica, sans-serif;
     color: var(--text-main)
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
