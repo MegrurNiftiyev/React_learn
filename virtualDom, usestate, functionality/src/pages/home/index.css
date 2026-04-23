@@ -1,5 +1,6 @@
 .home {
-    margin: 0;
+    
+    margin: 0 auto;
     padding: 0;
 }
 
@@ -10,6 +11,7 @@
     margin: 0 auto;
     justify-content: center;
     gap: 2%;
+    width: 100%;
 }
 
 .main p {
@@ -34,4 +36,31 @@
 .tags {
     display: flex;
     flex-wrap: wrap;
+}
+
+.techContent {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.tilesGrid {
+    margin-top: 16px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 14px;
+}
+
+@media (max-width: 900px) {
+    .main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .aboutText {
+        width: 100%;
+    }
+
+    .tilesGrid {
+        grid-template-columns: 1fr;
+    }
 }

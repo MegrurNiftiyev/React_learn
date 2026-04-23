@@ -1,0 +1,49 @@
+.listTile {
+  background: linear-gradient(160deg, #ffffff 0%, #f4fff8 100%);
+  border: 1px solid color-mix(in srgb, var(--primary-green), transparent 65%);
+  border-radius: 18px;
+  padding: 26px;
+  min-height: 220px;
+  box-shadow: 0 10px 24px rgba(21, 36, 28, 0.12);
+  transition: box-shadow 0.25s ease, transform 0.25s ease;
+}
+
+.listTile:hover {
+  box-shadow: 0 20px 40px rgba(21, 36, 28, 0.2);
+  transform: translateY(-4px);
+}
+
+.listTileTop {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.listTileIconBox {
+  width: 54px;
+  height: 54px;
+  border-radius: 14px;
+  display: grid;
+  place-items: center;
+  background-color: color-mix(in srgb, var(--primary-green), white 86%);
+  border: 1px solid color-mix(in srgb, var(--primary-green), transparent 60%);
+}
+
+.listTileIcon {
+  font-size: 24px;
+  color: var(--primary-green);
+}
+
+.listTileTitle {
+  margin: 0;
+  font-size: 20px;
+  color: var(--text-dark-main);
+  letter-spacing: 0.2px;
+}
+
+.listTileContent {
+  margin: 18px 0 0;
+  font-size: 16px;
+  line-height: 1.65;
+  color: #2f3b36;
+}
